@@ -1,0 +1,7 @@
+
+
+sudo apt-get install dosbox
+dosbox
+mount c /home/barba/qbasic
+C:
+QBASIC.EXE

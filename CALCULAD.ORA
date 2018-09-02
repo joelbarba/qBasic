@@ -1,0 +1,48 @@
+10 CLS
+20 PRINT " HOLA, VENVINGYT A LA MEVA CALCULADORA"
+30 PRINT " QUE VOLS FER, +,-,*,/( pitja el boto )"
+40 INPUT a$
+50 IF a$ = "+" THEN 80
+60 IF a$ = "-" THEN 180
+70 IF a$ = "*" THEN 300
+75 IF a$ = "/" THEN 400
+76 IF a$ = "s" THEN 500
+78 GOTO 40
+80 CLS
+85 COLOR 2
+
+
+90 INPUT "entrar datos"; a, b
+
+100 PRINT a; "+"; b; "="; a + b
+110 PRINT "vols continuar ?  s,n"
+120 INPUT a$
+130 IF a$ = "s" THEN 80
+140 IF a$ = "n" THEN 10
+150 BEEP
+160 PRINT "he dit que si"
+170 GOTO 110
+
+180 CLS
+190 COLOR 4
+200 INPUT "entrar datos"; a, b
+210 PRINT a; "-"; b; "="; a - b
+215 PRINT "vols continuar ?  s/n"
+
+220 INPUT a$
+230 IF a$ = "s" THEN 180
+240 IF a$ = "n" THEN 10
+250 BEEP
+260 PRINT "he dit que si"
+270 GOTO 215
+
+
+
+
+300 END
+400 END
+500 END
+
+
+
+

@@ -1,0 +1,35 @@
+CLS
+COLOR 4
+LOCATE 9, 24
+PRINT "C O N T R O L   D E   M A T E S "
+A$ = INPUT$(1)
+5 CLS
+PRINT "1. NOMBRES I OPERACIONS"
+PRINT "2. PROBLEMES"
+PRINT "3. GEOMETRIA"
+A$ = INPUT$(1)
+IF A$ = "1" THEN 10
+IF A$ = "2" THEN 20
+IF A$ = "3" THEN 30
+GOTO 5
+10 CLS
+PRINT "   344412"
+PRINT " +  34535"
+PRINT " _________"
+LOCATE 4, 2
+INPUT A$
+IF A$ = "378947" THEN nota = nota + 1
+CLS
+PRINT "   3050674"
+PRINT "  -  43543"
+PRINT "  ________"
+LOCATE 3, 2
+INPUT A$
+IF A$ = " 3017131" THEN nota = nota + 1
+
+
+20
+30
+END
+END
+

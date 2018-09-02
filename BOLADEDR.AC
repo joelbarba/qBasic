@@ -1,0 +1,17 @@
+
+10 CLS
+20 COLOR 14
+30 PRINT "   B O L A   D E   D R A C  Z"
+40 INPUT a$
+50 IF a$ = "" THEN 60
+65 BEEP: GOTO 10
+70 CLS
+72 PRINT "       start       opcions       pasword"
+74 INPUT a$
+76 IF a$ = "options" THEN 85
+77 IF a$ = "start" THEN 80
+78 IF a$ = "pasword" THEN 86
+79 GOTO 70
+80 CLS
+81 PRINT ""
+
